@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 4px  ;
+  
+}
+
+header {
+  display: flex;
+  border-radius:7px;
+  justify-content: space-between;
+  outline-style: solid;
+  outline-width: thin;
+  align-items: center;
+  padding: 30px 5%;
+  background-color: #F4F4F0;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+  font-weight: bold;
+  color:#000000;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.cta {
+  padding: 9px 25px;
+  outline-style: solid;
+  outline-width: thin;
+  background-color:#00000;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+  
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+  box-shadow: 0 0.5em 0.5em -0.4em #000000, 3px 3px 1px 2px rgba(0,0,0,1);
+  
+  transform: translateX(-0.25em);
+}
